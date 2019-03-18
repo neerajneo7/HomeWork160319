@@ -1,6 +1,7 @@
 public class Calculator
 {
         // We shall be creating the data to add, sub, divide, multiplication for 2 int numbers
+        // I am using this as No Return type, No Parameters(No Argument) Method
         static int a = 10;
         static int b = 2;
 
@@ -25,7 +26,7 @@ public class Calculator
         }
         // java main method
         public static void main(String[] args) {
-            add(); // This will add the value of a+b
+            add(); // This will add the value of a+b and is also called No Parameters method
             sub();
             divide();
             multi();
